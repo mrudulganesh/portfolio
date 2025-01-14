@@ -1,0 +1,12 @@
+.text-black {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.nav-links:hover {
+  background-color: #dc143c;
+  font-size: 18px;
+  border-radius: 2px;
+  height: 40px;
+  margin-top: 3px;
+}

@@ -1,0 +1,98 @@
+.btn-connect {
+    background-color: #dc143c;
+    width: 115px;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.shadow {
+    border: 1px solid #dc143c;
+}
+
+.btn-connect:hover {
+    background-color: #fff;
+    color: #dc143c;
+    font-size: 17px;
+    width: 125px;
+}
+
+.btn-demo {
+    background-color: #dc143c;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-git {
+    border: 1px solid #dc143c;
+    color: #dc143c;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-demo:hover {
+    background-color: #fff;
+    color: #dc143c;
+}
+
+.btn-git:hover {
+    background-color: #fff;
+    color: #dc143c;
+}
+
+.btn-cv {
+    background-color: #dc143c;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.btn-cv:hover {
+    background-color: #fff;
+    color: #dc143c;
+}
+
+.form-control {
+    background-color: #202020;
+    border: none;
+    outline: none;
+}
+
+.form-control:focus {
+    background: none;
+    color: white;
+}
+
+.form-control:hover {
+    border: 1px solid #dc143c;
+
+}
+
+.btn-send {
+    background-color: #dc143c;
+    color: #fff;
+    height: 40px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.btn-send:hover {
+    background-color: #fff;
+    color: #dc143c;
+    border: 1px solid #dc143c;
+}
+
+.social-icons {
+
+    cursor: pointer;
+
+}
+
+.social-icons:hover {
+    padding: 5px;
+    background-color: #dc143c;
+    border-radius: 50%;
+}
