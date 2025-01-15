@@ -7,7 +7,7 @@ import image4 from '../../Assets/image4.png';
 const Post = () => {
   return (
     <div>
-      <div className="container-fluid bg-danger" style={{ height: "90vh" }}>
+      <div className="container-fluid bg-danger" style={{ height: "500px" }}>
         <div className="row" style={{ height: "100%", backgroundColor: "#000" }} id='home'>
           <motion.div className="col-md-6 d-flex align-items-center" style={{ backgroundColor: "" }}
             initial={{ opacity: 0, scale: 0 }}
@@ -43,7 +43,7 @@ const Post = () => {
             <img
               className=''
               src={image4}
-              style={{ maxWidth: "100%", height: "400px" }}
+              style={{ maxWidth: "100%", height: "200px" }}
               alt="imag1"
             />
           </div>

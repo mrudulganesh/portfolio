@@ -69,9 +69,9 @@ const Contact = () => {
                                         transition={{ duration: 2 }}
                                     >
                                         <div class="  d-flex flex-shrink-0 align-items-center justify-content-center me-3" style={{ width: "45px", height: "45px" }}>
-                                            <i class="fa fa-map-marker-alt text-danger"></i>
+                                            <i class="fa fa-map-marker-alt text-danger pe-3"></i>
                                         </div>
-                                        <span className='text-danger' style={{ fontSize: "18px" }}>Kasragod, Kerala, India</span>
+                                        <span className='text-danger' style={{ fontSize: "17px" }}>Kasragod, Kerala, India</span>
                                     </motion.div>
                                 </div>
                                 <div class="col-md-4 wow fadeIn" data-wow-delay="0.3s">
@@ -80,10 +80,10 @@ const Contact = () => {
                                         whileInView={{ opacity: 1, scale: 1 }}
                                         transition={{ duration: 2 }}
                                     >
-                                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center me-3" style={{ width: "45px", height: "45px" }}>
-                                            <i class="fa fa-envelope-open text-danger"></i>
+                                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center  " style={{ width: "40px", height: "45px" }}>
+                                            <i class="fa fa-envelope-open text-danger  pe-3"></i>
                                         </div>
-                                        <span className='text-danger' style={{ fontSize: "18px" }}>mrudulganeshkalanad@gmail.com</span>
+                                        <span className='text-danger' style={{ fontSize: "17px" }}>mrudulganeshkalanad@gmail.com</span>
                                     </motion.div>
                                 </div>
                                 <div class="col-md-4 wow fadeIn" data-wow-delay="0.5s">
@@ -189,7 +189,8 @@ const Contact = () => {
                     <i class="fa-brands fa-linkedin-in text-white" style={{ fontSize: "35px" }}></i>
                 </a>
             </div>
-            <p className='text-white text-end me-3'>Copyright 2024 About<span style={{ color: "#dc143c" }}>Me</span></p>
+            <p className='text-white text-end me-3 pt-5'>Copyright 2025 About<span style={{ color: "#dc143c" }}>Me</span></p>
+            <i className='text-white text-center me-3 '>Developed by M<span style={{ color: "#dc143c" }}>G</span></i>
         </div>
     )
 }
