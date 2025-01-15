@@ -38,7 +38,7 @@ const Project = () => {
         <h3 className='pb-1 text-white text-center'>Projects</h3>
         {
           Projects.map((pro) => (
-            <motion.div className='col-md-4 col-md-3 m-1 mb-4 mt-4' key={pro.id}
+            <motion.div className='col-md-4 col-md-3 m-0 mb-4 mt-4' key={pro.id}
               initial={{ opacity: 0, scale: 0 }}
               whileInView={{ opacity: 1, scale: 1}}
               transition={{ duration: 2 }}
@@ -50,8 +50,8 @@ const Project = () => {
                   <p class="card-text text-white">{pro.technologies}</p>
                 </div>
                 <div class="card-body d-flex align-items-center justify-content-center">
-                  <a href={pro.github} target='_blank' rel='noreferrer' class=" btn btn-git me-3">GitHub</a>
-                  <a href={pro.link} target='_blank' rel='noreferrer' class=" btn btn-demo">Live Demo</a>
+                  <a href={pro.github} target='_blank' rel='noreferrer' class=" btn btn-git me-4">GitHub</a>
+                  <a href={pro.link} target='_blank' rel='noreferrer' class=" btn btn-demo">Live</a>
                 </div>
               </div>
             </motion.div>
