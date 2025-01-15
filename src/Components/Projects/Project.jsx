@@ -2,7 +2,6 @@ import React from 'react';
 import '../Post/Post.css';
 import { motion } from 'framer-motion';
 import project5 from '../../Assets/project5.png';
-import project2 from '../../Assets/project2.png';
 import project3 from '../../Assets/project3.png';
 import project4 from '../../Assets/project4.png';
 const Project = () => {
