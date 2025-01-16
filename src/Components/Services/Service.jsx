@@ -4,11 +4,11 @@ import './Service.css';
 const Service = () => {
   return (
     <div>
-      <div className='container  w-75 mt-5'>
+      <div className='container  w-75 mt-4'>
         <div className='row'>
-          <h2 className='text-center text-white mb-3'>Technical Skills</h2>
+          <h2 className='text-center text-white mb-4'>Technical Skills</h2>
           <div className='col-md-6 mb-3'>
-            <motion.div className='card' style={{ backgroundColor: "#000", border: '1px solid #dc143c' }}
+            <motion.div className='card' style={{ backgroundColor: "#000", border: '1px solid #dc143c'}}
               initial={{ opacity: 0, scale: 0 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 2 }}
